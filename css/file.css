@@ -1,0 +1,495 @@
+/* CSS Document */
+#tong{
+	width: 100%;
+	height: 3800px;
+	background-color: #000000;
+}
+#header{
+	margin:0 auto;
+	width: 100%;
+	height: 1000px;
+	background : #000000;
+/*	position: absolute;*/
+/*	width: 1920px;*/
+	height: 82px;
+	left: 8.5px;
+	top: 0px;
+
+/*	background: #030800;*/
+}
+#header .chua{
+	width: 100%;
+	height: 90px;
+	background: hsla(0,0%,77%,0.12);
+	position: fixed;
+}
+#header .logo{
+position: absolute;
+width: 40%;
+height: 82px;
+left: 20px;
+top: 7px;
+
+font-family: Trans-America;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 71px;
+letter-spacing: -0.08em;
+
+color: #FFFFFF;
+}
+/*logoheader*/
+#header .menu{
+	width: 60%;
+	height: 10%;
+	float: right;
+/*	background: #8275DC;*/
+	text-align: justify;
+
+
+/*margin: 0 auto;*/
+/*padding: -20px;*/
+position: absolute;
+/*width: 168px;*/
+height: 0px;
+left: 600px;
+top: 0px;
+
+font-family: UTM BryantLG;
+font-style: normal;
+font-weight: normal;
+font-size: 36px;
+line-height: 0px;
+
+color: #FFFFFF;
+
+
+}
+/*logomenu*/
+ul{
+list-style: none;
+}ul li{
+	float:left;
+	padding: 20px 40px;
+	position: relative;
+	
+}ul li ul {
+	position: absolute;
+	left: 20px;
+	top: 50px;
+	visibility: hidden;
+}
+ul li ul li{
+	width: 50px;
+	background-color:#03A3A6;
+}
+ul li:hover ul{
+	visibility: visible;
+}
+ul li a { 
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	border: 5px solid transparent;
+}ul li:hover{
+	background-color: #2B3F5C;
+	border-radius: 5px;
+}
+ul li a:hover{
+	color: #33241A;
+	transition-duration: 0.2s;
+}
+/* Rectangle 6 */
+
+#header .hinh{
+width: 100%;
+height: 1000px;
+background : #000000;
+/*position: absolute;*/
+/*width: 100%;*/
+height: 920px;
+left: -100px;
+top: 81px;
+
+background: url( ../images/tui.png);
+mix-blend-mode: difference;
+}
+#header .chu1{
+/* Xin chào, tôi tên là */
+position: absolute;
+width: 400px;
+height: 150px;
+left: 900px;
+top: 296px;
+
+font-family: UTM BryantLG;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 29px;
+
+color: #FFFFFF;
+
+}
+
+
+#header .chu1 h1{
+	font-size: 56px;
+	
+}
+#header .chu3{
+/* Là một người thiết kế, tôi mang đến cho bạn những phép màu, sự khác biệt và những điều mới mẻ mà bạn chưa từng nghĩ đến. */
+
+
+position: absolute;
+width: 400px;
+height: 100px;
+left: 900px;
+top: 470px;
+
+
+font-family: UTM BryantLG;
+font-style: normal;
+font-weight: normal;
+font-size: 8px;
+line-height: 20px;
+
+color: #FFFFFF;
+}
+
+#one{
+	width: 100%;
+	height: 1000px;
+	background:  rgba(155,22,24,1.00);
+	
+}
+#one .pic{
+	width: 40%;
+	height: 100%;
+	background: hsla(0,0%,0%,1.00);
+	float: left;
+	
+}
+.main{
+	width: 25%;
+	height: 90%;
+	background-image: url(../images/IMG_0954.png);
+	background-size: 100% ;
+    position: absolute;
+	background-repeat: no-repeat;
+    margin-left: 20px;
+    box-shadow: 1px 2px 10px 5px black;
+    animation: slideshow 10s infinite linear;
+ 
+}
+@keyframes slideshow {
+    25% {
+        background-image: url(../images/116345331_759123144908335_7473447851311330735_o.jpg);
+    }
+    50% {
+        background-image: url(../images/IMG_0954.png);
+    }
+    75% {
+        background-image: url(../images/IMG_0954.png);
+    }
+    100% {
+        background-image: url(./images/116345331_759123144908335_7473447851311330735_o.jpg);
+    }
+    from {
+        box-shadow: 1px 2px 10px 5px rgb(51, 49, 49)
+    }
+    to {
+        box-shadow: 2px 3px 11px 6px rgb(61, 60, 60)
+    }
+}
+#one .text{
+	width: 60%;
+	padding: 50px;
+	height: 100%;
+	background: rgba(3,8,0,1.00);
+	float: right;
+	font-size: 30;
+}
+#one .text .theme{
+	width: 100%;
+	height: 10%;
+	background: #000000;
+	color: white;
+}
+#one .text .bar{
+	width: cald(100%-70px);
+	height: cald(70%-100px);
+	background: #000000;
+	padding: 100px 20px;
+    color: white;
+}
+
+#two{
+	width: 100%;
+	height: 800px;
+	background:  #000000;
+	padding-top: 250px;
+	
+}
+	
+.skill{
+	width: 100%px;
+	height: 670px;
+	background-color: black;
+	margin: 10px auto;
+	padding: 0px 10px;
+}
+.skill1{
+	width: 370px;
+	height: 200px;
+	background-color: #000000;
+	margin: 10px 50px;
+	float: left;
+	text-align: center;
+	padding-top: 30px;
+	color: aliceblue;
+}
+.them{
+	width: 80%;
+	height: 90%;
+/*	background: hsla(0,0%,77%,0.58);*/
+	background-image: url(../images/woman-in-black-tank-top-blindfolded-3962984.jpg);
+
+
+	
+}
+.them button{
+	width: 100px;
+	height: 30px;
+	background: #000000;
+	color: #FFFFFF;
+	border: 0px;
+	margin-top: 20%;
+	border-radius: 10px;
+}
+.them button:hover{
+	background: #FFFFFF;
+	color: #000000;
+	border-radius: 10px;
+	transition-duration: 1s
+}
+
+#one .phai{
+	width: 60%;
+	height: 100%;
+	background: rgba(145,149,220,1.00);
+	float: right;
+}
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+  width: 80%; /* Full width */
+  background-color: #000000; /* Grey background */
+}
+
+.skills {
+	
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.html {width: 65%; background-color: #C4C4C4; color: #000000;} /* Green */
+.css {width: 75%; background-color: #C4C4C4;color: #000000} /* Blue */
+.js {width: 80%; background-color: #C4C4C4;color: #000000} /* Red */
+.php {width: 55%; background-color: #C4C4C4;color: #000000} /* Dark Grey */
+#footer{
+	width: 100%;
+	height: 800px;
+	background: #030800;
+	color: #FFFFFF;
+	position: relative;
+}
+#footer .bx1{
+	width:30%;
+	height: 550px;
+	float: left;
+	color: #FFFFFF;
+	padding-top: 60px;
+	padding-left: 30px;
+	position: absolute;
+	top: -20px;
+	
+}
+#footer .bx1 .ll{
+	width: 100%;
+	height: 250px;
+
+}
+#footer .bx1 .ll .lon{
+	width: 100%;
+	height: 60px;
+
+	margin-top: 10px
+}
+#footer .bx1 .ll .lon .fb1{
+	width: 60px;
+	height: 60px;
+	
+	float: left;
+	
+}
+#footer .bx1 .ll .lon .fb2{
+	width: 80%;
+	height: 60px;
+	
+	float: right;
+	
+	
+	line-height: 60px;
+}
+#footer .bx1 .ll .lon .fb2 a{text-decoration: none;
+	color: #FFFFFF;
+}
+#footer .bx2{
+	width: 60%;
+	height: 80%;
+	background: black;
+	float: right;
+	color: #FFFFFF
+	
+	
+}
+table{
+	text-align: center;
+	border: 0px;
+	margin-top: 75px;
+
+}
+
+table td{
+	
+	border: 0px;
+	height: 80px;
+}
+#footer .bx2 button{
+	width: 250px;
+	height: 35px;
+	margin-top: 50px;
+	background: black;
+	color: #FFFFFF;
+	border: 0px solid hsla(0,0%,100%,1.00);
+	transition-duration: 0.2s;
+}
+
+/*footer bx2*/
+#footer .bx2 button:hover{
+	color: black;
+	background:  #FFFFFF;
+	border-color: white;
+	color: #000000;
+	transition-duration: 2s;
+	border: 2px solid #544b4b;
+	border-radius: 50px;
+}
+
+/*qa*/
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 35px;
+	right:50%;
+	z-index: 99;
+	
+	border: none;
+	outline: none;
+	
+  	cursor: pointer;
+ 	padding: 15px;
+ 	border-radius: 15px;
+}
+#myBtn:hover {
+	background-color: black;
+	color: #202020;	
+}
+.upward {
+    border-radius: 50%;
+    width: 35px;
+    height:35px;
+    background-color: black;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+    cursor: pointer;
+    transition: .2s all;
+}
+
+.upward:after {
+    content: "";
+    display: block;
+    background-color: rgba(246, 251, 255, 0.1);
+    border-radius: 15px;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    z-index: -1;
+    pointer-events: none;
+    transition: .3s all;
+}
+.upward__arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 5;
+}
+.upward__arrow:after {
+    content: "";
+    display: block;
+
+    width: 18px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    transition: .3s all;
+    opacity: 1;
+}
+.upward__arrow:before {
+    content: "";
+    display: block;
+    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/2015738/arrow_color_white.png) no-repeat;
+    width: 18px;
+    height: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 3;
+    transition: .3s all;
+    opacity: 0;
+}
+.upward:hover {
+    background-color: #C4C4C4;
+}
+.upward:hover:after {
+    transform: translate(-40%, -50%) scale(0);
+}
+.upward:hover .upward__arrow:after {
+    opacity: 0;
+}
+.upward:hover .upward__arrow:before {
+    opacity: 1;
+}
+/*qa*/
+#footer h1{
+	font-size: 56px;
+}
